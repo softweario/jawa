@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://nurepo.xyz/graphql` + encodeURI(path as string)
+					`https://nurepo.xyz` + encodeURI(path as string)
 				}`,
 			},
 		};
